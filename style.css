@@ -409,3 +409,14 @@ img{height:auto}
 .flinks span{display:inline-flex;align-items:center;min-height:48px}
 .method-head{max-width:none;text-wrap:balance}
 @media(max-width:480px){.link{letter-spacing:.08em;font-size:.72rem}}
+
+/* v7 */
+.facts-t{color:var(--royal-d);margin:22px 0 8px;font-size:11px}
+.form .ft{font:400 22px/1.15 var(--serif);color:#fff;margin:2px 0 -2px;letter-spacing:-.005em}
+@media(max-width:380px){.mark{font-size:17px}}
+@media (min-width:900px){.about-fig{grid-column:1/6}.about-copy{grid-column:7/13}.about-grid{column-gap:20px}}
+
+.mark,.mk-t,.tel{white-space:nowrap}
+@media(max-width:480px){.mark{font-size:16px;gap:8px}.mark svg{width:22px;height:15px}.hd .tel{letter-spacing:.04em}}
+@media(max-width:899px){.fig{max-width:520px}}
+@media (min-width:900px){.hero-row{align-items:start}.hero-row p{padding-top:6px}}
